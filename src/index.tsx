@@ -1,4 +1,4 @@
-import { ActionPanel, List, OpenInBrowserAction, showToast, ToastStyle } from "@raycast/api";
+import { ActionPanel, CopyToClipboardAction, List, OpenInBrowserAction, showToast, ToastStyle } from "@raycast/api";
 import { useEffect, useState } from "react";
 import { search } from './search'
 import { Word } from "./search/type";
@@ -47,6 +47,7 @@ export default function main(lang: string) {
         actions={
           <ActionPanel>
             <OpenInBrowserAction url={r.link} />
+            <CopyToClipboardAction content={r.from} />
           </ActionPanel>
         }
       />
