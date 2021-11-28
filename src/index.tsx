@@ -43,7 +43,7 @@ export default function main(lang: string) {
       <List.Item 
         key={index}
         title={r.from}
-        accessoryTitle={r.to}
+        subtitle={r.to}
         actions={
           <ActionPanel>
             <OpenInBrowserAction url={r.link} />
