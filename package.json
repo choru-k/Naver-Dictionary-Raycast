@@ -1,0 +1,89 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "naver-dictionary-raycast",
+  "title": "Naver Dictionary For RayCast",
+  "description": "Naver Dictionary for raycast",
+  "icon": "icon.png",
+  "author": "cheol",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "nae",
+      "title": "Naver English Dictionary",
+      "description": "Naver English Dictionary",
+      "mode": "view"
+    },
+    {
+      "name": "naj",
+      "title": "Naver Japanese Dictionary",
+      "description": "Naver Japanese Dictionary",
+      "mode": "view"
+    },
+    {
+      "name": "nah",
+      "title": "Naver Hanja Dictionary",
+      "description": "Naver Hanja Dictionary",
+      "mode": "view"
+    },
+    {
+      "name": "nak",
+      "title": "Naver Korean Dictionary",
+      "description": "Naver Korean Dictionary",
+      "mode": "view"
+    },
+    {
+      "name": "nak",
+      "title": "Naver Korean Dictionary",
+      "description": "Naver Korean Dictionary",
+      "mode": "view"
+    },
+    {
+      "name": "nac",
+      "title": "Naver Chinese Dictionary",
+      "description": "Naver Chinese Dictionary",
+      "mode": "view"
+    },
+    {
+      "name": "naf",
+      "title": "Naver France Dictionary",
+      "description": "Naver France Dictionary",
+      "mode": "view"
+    },
+    {
+      "name": "nad",
+      "title": "Naver Deutsch Dictionary",
+      "description": "Naver Deutsch Dictionary",
+      "mode": "view"
+    },
+    {
+      "name": "nas",
+      "title": "Naver Spanish Dictionary",
+      "description": "Naver Spanish Dictionary",
+      "mode": "view"
+    },
+    {
+      "name": "nav",
+      "title": "Naver Vietnam Dictionary",
+      "description": "Naver Vietnam Dictionary",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.25.7",
+    "node-fetch": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "~16.10.0",
+    "@types/react": "^17.0.28",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "react-devtools": "^4.19.2",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop"
+  }
+}
