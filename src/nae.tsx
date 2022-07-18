@@ -1,5 +1,5 @@
 import main from "./index";
 
 export default function nae() {
-    return main('e')
+  return main("e");
 }
