@@ -26,7 +26,7 @@ export const koreanSearch: SearchFunc = async (word: string) => {
     ret.push({
       from: item[0][0],
       to: "",
-      link: `https://ko.dict.naver.com/#/search?query=${item[0][0]}`,
+      link: encodeURI(`https://ko.dict.naver.com/#/search?query=${item[0][0]}`),
     });
   });
   return ret;
