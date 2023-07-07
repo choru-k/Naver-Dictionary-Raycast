@@ -28,7 +28,7 @@ export const englishSearch: SearchFunc = async (word: string) => {
       ret.push({
         from: item[0][0],
         to: item[1].join(","),
-        link: `https://en.dict.naver.com/#/search?range=all&query=${item[0][0]}`,
+        link: encodeURI(`https://en.dict.naver.com/#/search?range=all&query=${item[0][0]}`),
       });
     });
   });
