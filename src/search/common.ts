@@ -53,7 +53,7 @@ export const dictionarySearch: SearchFunc = async (word: string, lang: string) =
     ret.push({
       from: item[0][0],
       to: item[3].join(","),
-      link: `dict.naver.com/${convertLang(lang)}kodict/#/search?query=${item[0][0]}`,
+      link: `https://dict.naver.com/${convertLang(lang)}kodict/#/search?query=${item[0][0]}`,
     });
   });
   return ret;
